@@ -1,11 +1,19 @@
 
 body {
     background-image:linear-gradient(teal, #001f3f);
-    background-repeat: repeat;
 }
-.wrapper {
-    height: 900px;
 
+.wrapper {
+    height: 950px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h3 {
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    /* margin-left: 500px; */
 }
 
 .grid-container {
@@ -22,13 +30,20 @@ body {
     border-radius: 5px;
 }
 
-.grid-item {
+.cell {
     background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
-    font-size: 20px;
+    font-size: 50px;
     text-align: center;
+    color: #001f3f;
     border-radius: 5px;
 }
 
-
+.restartgame {
+    border-radius: 5px;
+    height: 30px;
+    width: 90px;
+    background-color: yellow;
+    border: 0 solid transparent;
+}
